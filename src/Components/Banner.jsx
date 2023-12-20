@@ -11,7 +11,7 @@ const Banner = () => {
     return (
         <div className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center">
             <div className=" h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-red">
-                <h1 className="text-[52px] font-semibold mb-8 leading-normal uppercase">Welcome To <span className="text-blue-500">IT Project Management</span></h1>
+                <h1 className="text-[52px] font-semibold mb-8 leading-normal uppercase">Welcome To <span className="text-blue-900">IT Project Management</span></h1>
                 <p >We specialize in comprehensive IT project management solutions tailored to meet the unique needs of your business. Whether you're launching a new software initiative, upgrading your infrastructure, or implementing cybersecurity measures, our experienced team is here to guide you every step of the way</p>
                 <div>
                     <CallToAction />
@@ -19,13 +19,13 @@ const Banner = () => {
                 <div className="flex mt-8 gap-2">
                     <div className="flex items-center justify-center">
                         <div  className="flex space-x-2">
-                            <a href="http://github.com" className="text-blue-500 hover:text-blue-500 rounded-full glow p-5">
+                            <a href="http://github.com" className="text-blue-900 hover:text-black rounded-full">
                                 <AiFillGithub className="text-[28px]"/>
                             </a>
-                            <a href="http://linkedin.com" className="text-blue-500 hover:text-blue-500 rounded-full glow p-5">
+                            <a href="http://linkedin.com" className="text-blue-900 hover:text-black rounded-full">
                                 <FaLinkedinIn className="text-[28px]"/>
                             </a>
-                            <a href="http://twitter.com" className="text-blue-500 hover:text-blue-500 rounded-full glow p-5">
+                            <a href="http://twitter.com" className="text-blue-900 hover:text-black rounded-full">
                                 <FiTwitter className="text-[28px]"/>
                             </a>
 
