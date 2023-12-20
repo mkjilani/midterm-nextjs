@@ -19,10 +19,10 @@ const Banner = () => {
                 <div className="flex mt-8 gap-2">
                     <div className="flex items-center justify-center">
                         <div  className="flex space-x-2">
-                            <a href="http://github.com/mkjilani" className="text-blue-500 hover:text-blue-500 rounded-full glow p-5">
+                            <a href="http://github.com" className="text-blue-500 hover:text-blue-500 rounded-full glow p-5">
                                 <AiFillGithub className="text-[28px]"/>
                             </a>
-                            <a href="http://linkedin.com/mkjilani" className="text-blue-500 hover:text-blue-500 rounded-full glow p-5">
+                            <a href="http://linkedin.com" className="text-blue-500 hover:text-blue-500 rounded-full glow p-5">
                                 <FaLinkedinIn className="text-[28px]"/>
                             </a>
                             <a href="http://twitter.com" className="text-blue-500 hover:text-blue-500 rounded-full glow p-5">

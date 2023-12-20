@@ -20,10 +20,10 @@ const Footer = () => {
            <div>
              <h2 className="text-[22px] font-semibold text-blue-800 py-2 uppercase">Follow Me</h2>
             <div className="flex space-x-4">
-                <a className="text-white hover:text-blue-800  transition-all duration-150 ease-in-out" href="http://github.com/mkjilani">
+                <a className="text-white hover:text-blue-800  transition-all duration-150 ease-in-out" href="http://github.com">
                     <FaGithub/>
                 </a>
-                <a className="text-white hover:text-blue-800  transition-all duration-150 ease-in-out" href="http://linkedin.com/mkjilani">
+                <a className="text-white hover:text-blue-800  transition-all duration-150 ease-in-out" href="http://linkedin.com">
                     <FaLinkedinIn/>
                 </a>
                 <a className="text-white hover:text-blue-800  transition-all duration-150 ease-in-out" href="http://twitter.com">
