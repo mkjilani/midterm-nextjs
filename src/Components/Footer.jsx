@@ -20,13 +20,13 @@ const Footer = () => {
            <div>
              <h2 className="text-[22px] font-semibold text-white py-2 uppercase">Follow Me</h2>
             <div className="flex space-x-4">
-                <a className="text-white hover:text-blue-800  transition-all duration-150 ease-in-out" href="http://github.com">
+                <a href="http://github.com" className="text-white hover:text-blue-800  " >
                     <FaGithub/>
                 </a>
-                <a className="text-white hover:text-blue-800  transition-all duration-150 ease-in-out" href="http://linkedin.com">
+                <a href="http://linkedin.com" className="text-white hover:text-blue-800  ">
                     <FaLinkedinIn/>
                 </a>
-                <a className="text-white hover:text-blue-800  transition-all duration-150 ease-in-out" href="http://twitter.com">
+                <a href="http://twitter.com" className="text-white hover:text-blue-800  " >
                     <FaTwitter/>
                 </a>
             </div>

@@ -21,10 +21,7 @@ const CallToAction = () => {
           </Link>
 
       {/* Email Call to Action */}
-      <a
-        href="mailto:example@example.com" // Replace with the actual email address
-        className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded inline-block"
-      >
+      <a href="mailto:example@example.com" className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded inline-block"      >
         Send Email
       </a>
     </div>
