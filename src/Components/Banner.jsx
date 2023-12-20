@@ -1,11 +1,10 @@
 import {AiFillGithub} from 'react-icons/ai';
-import {FaLinkedinIn, FaInstagram} from 'react-icons/fa';
+import {FaLinkedinIn} from 'react-icons/fa';
 import {FiTwitter} from 'react-icons/fi';
 import img from '../assets/PM.png';
 import CallToAction from '../Components/CallToAction';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { useEffect } from 'react';
+
+
 const Banner = () => {
 
     return (
@@ -19,13 +18,13 @@ const Banner = () => {
                 <div className="flex mt-8 gap-2">
                     <div className="flex items-center justify-center">
                         <div  className="flex space-x-2">
-                            <a href="http://github.com" className="text-blue-900 hover:text-black rounded-full">
+                            <a href="http://github.com" className="text-blue-900 rounded-full">
                                 <AiFillGithub className="text-[28px]"/>
                             </a>
-                            <a href="http://linkedin.com" className="text-blue-900 hover:text-black rounded-full">
+                            <a href="http://linkedin.com" className="text-blue-900 rounded-full">
                                 <FaLinkedinIn className="text-[28px]"/>
                             </a>
-                            <a href="http://twitter.com" className="text-blue-900 hover:text-black rounded-full">
+                            <a href="http://twitter.com" className="text-blue-900  rounded-full">
                                 <FiTwitter className="text-[28px]"/>
                             </a>
 
