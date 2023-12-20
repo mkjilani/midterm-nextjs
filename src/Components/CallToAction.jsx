@@ -1,9 +1,7 @@
 // CallToAction.js
 
-import React from 'react';
 import { Link } from "react-scroll";
-import { Link as RouterLink } from 'react-router-dom';
-import Contact from './Contact';
+
 
 const CallToAction = () => {
 

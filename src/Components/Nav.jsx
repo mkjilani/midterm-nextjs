@@ -12,7 +12,7 @@ const Nav = () => {
         <div className="lg:hidden block absolute top-16 w-full left-0 right-0 bg-red-900">
         <div className="flex items-center flex-1">
 
-                <img height={250} width={250} className="flex items-center justify-left rounded-3xl p-1 " src={img5} alt="" />
+                <img height={250} width={250} className="flex items-center justify-left rounded-3xl p-1 " src={img5} alt="Logo for site" />
                 </div>
             <ul className="text-center text-xl p-20">
                 <Link spy={true} smooth={true} to="Home">
@@ -41,19 +41,19 @@ const Nav = () => {
                     <div className="flex-10">
                     <ul className="flex gap-8 mr-16 text-[18px]">
                 <Link spy={true} smooth={true} to="Home">
-                    <li className="hover:text-blue-500 transition  hover:text-blue-900 cursor-pointer">Home</li>
+                    <li className=" transition  hover:text-blue-900 cursor-pointer">Home</li>
                 </Link>
                 <Link spy={true} smooth={true} to="About">
-                    <li className="hover:text-blue-500 transition hover:text-blue-900 cursor-pointer">About</li>
+                    <li className="transition hover:text-blue-900 cursor-pointer">About</li>
                 </Link>
                 <Link spy={true} smooth={true} to="Projects">
-                    <li className="hover:text-blue-500 transition  hover:text-blue-900 cursor-pointer">Projects</li>
+                    <li className="transition  hover:text-blue-900 cursor-pointer">Projects</li>
                 </Link>
                 <Link spy={true} smooth={true} to="Skills">
-                    <li className="hover:text-blue-500 transition hover:text-blue-900 cursor-pointer">Skills</li>
+                    <li className="transition hover:text-blue-900 cursor-pointer">Skills</li>
                 </Link>
                 <Link spy={true} smooth={true} to="Contact">
-                    <li className="hover:text-blue-500 transition hover:text-blue-900 cursor-pointer">Contact</li>
+                    <li className="transition hover:text-blue-900 cursor-pointer">Contact</li>
                 </Link>
             </ul>
                     </div>
