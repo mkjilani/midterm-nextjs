@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-scroll";
 import {FaTimes} from "react-icons/fa";
 import {CiMenuFries} from "react-icons/ci";
-import img5 from '../assets/PM-logo.png';
+
 
 const Nav = () => {
     const [click, setClick] = useState(false);
@@ -10,10 +10,11 @@ const Nav = () => {
   
     const content = <>
         <div className="lg:hidden block absolute top-16 w-full left-0 right-0 bg-red-900">
+        
         <div className="flex items-center flex-1">
 
-                <img height={250} width={250} className="flex items-center justify-left rounded-3xl p-1 " src={img5} alt="Logo for site" />
-                </div>
+            <img height={250} width={250} className="flex items-center justify-left rounded-3xl p-1 " src='../assets/PM-logo.png' alt="Logo for site" />
+        </div>
             <ul className="text-center text-xl p-20">
                 <Link spy={true} smooth={true} to="Home">
                     <li className="my-4 py-4 border-b text-black hover:text-blue-900 hover:rounded">Home</li>
