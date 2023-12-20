@@ -7,7 +7,7 @@ const Skills = () => {
 
     return (
        <div id="Skills" className="p-20 flex flex-col items-center justify-center">
-        <h1 className="text-[52px] font-semibold mb-20 leading-normal uppercase text-blue-500">Skills</h1>
+        <h1 className="text-[52px] font-semibold mb-20 leading-normal uppercase text-blue-900">Skills</h1>
         <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-around gap-10">
             <img height={250} width={250} className="flex items-center justify-center rounded-3xl p-1 " src={img1} alt="" />
             <img height={250} width={250} className="flex items-center justify-center rounded-3xl p-1 " src={img2} alt="" />
