@@ -16,44 +16,44 @@ const Nav = () => {
                 </div>
             <ul className="text-center text-xl p-20">
                 <Link spy={true} smooth={true} to="Home">
-                    <li className="my-4 py-4 border-b border-green-800 hover:text-blue-900 hover:rounded">Home</li>
+                    <li className="my-4 py-4 border-b text-black hover:text-blue-900 hover:rounded">Home</li>
                 </Link >
                 <Link spy={true} smooth={true} to="About">
-                    <li className="my-4 py-4 border-b border-slate-800 hover:text-blue-900 hover:rounded">About</li>
+                    <li className="my-4 py-4 border-b text-black hover:text-blue-900 hover:rounded">About</li>
                 </Link>
                 <Link spy={true} smooth={true} to="Projects">
-                    <li className="my-4 py-4 border-b border-slate-800 hover:text-blue-900 hover:rounded">Projects</li>
+                    <li className="my-4 py-4 border-b text-black hover:text-blue-900 hover:rounded">Projects</li>
                 </Link>
                 <Link spy={true} smooth={true} to="Services">
-                    <li className="my-4 py-4 border-b border-slate-800 hover:text-blue-900 hover:rounded">Skills</li>
+                    <li className="my-4 py-4 border-b text-black hover:text-blue-900 hover:rounded">Skills</li>
                 </Link>
                 <Link spy={true} smooth={true} to="Contact">
-                    <li className="my-4 py-4 border-b border-slate-800 hover:text-blue-900 hover:rounded">Contact</li>
+                    <li className="my-4 py-4 border-b text-black hover:text-blue-900 hover:rounded">Contact</li>
                 </Link>
             </ul>
         </div>
     </>
     return (
         <nav>
-            <div className="flex justify-between z-50 text-blue-500 lg:py-5 px-20 py-4 border-b border-red-800">
+            <div className="flex justify-between z-50 text-blue-500 lg:py-5 px-20 py-4 border-b border-black">
 
                 <div className="lg:flex md:flex lg: flex-1 items center justify-end font-normal hidden">
                     <div className="flex-10">
                     <ul className="flex gap-8 mr-16 text-[18px]">
                 <Link spy={true} smooth={true} to="Home">
-                    <li className=" transition  hover:text-blue-900 cursor-pointer">Home</li>
+                    <li className=" transition text-black hover:text-blue-900 cursor-pointer">Home</li>
                 </Link>
                 <Link spy={true} smooth={true} to="About">
-                    <li className="transition hover:text-blue-900 cursor-pointer">About</li>
+                    <li className="transition text-black hover:text-blue-900 cursor-pointer">About</li>
                 </Link>
                 <Link spy={true} smooth={true} to="Projects">
-                    <li className="transition  hover:text-blue-900 cursor-pointer">Projects</li>
+                    <li className="transition text-black hover:text-blue-900 cursor-pointer">Projects</li>
                 </Link>
                 <Link spy={true} smooth={true} to="Skills">
-                    <li className="transition hover:text-blue-900 cursor-pointer">Skills</li>
+                    <li className="transition text-black hover:text-blue-900 cursor-pointer">Skills</li>
                 </Link>
                 <Link spy={true} smooth={true} to="Contact">
-                    <li className="transition hover:text-blue-900 cursor-pointer">Contact</li>
+                    <li className="transition text-black hover:text-blue-900 cursor-pointer">Contact</li>
                 </Link>
             </ul>
                     </div>
